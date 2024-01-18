@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./signup.css";
 import { signUpUser, getUserIp } from "../../ApiCalling/fetchApi";
 import { passwordStrength } from "../../common/utils";
-import Model from "../Model/Model";
 const signUpLayout = {
   phone: "",
   email: "",
