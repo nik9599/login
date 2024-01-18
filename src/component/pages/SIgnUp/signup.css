@@ -4,78 +4,265 @@
   border: 0;
 }
 
-.P{
-    width : 100%;
-    height : 100vh
+.P {
+  width: 100%;
+  height: 100vh;
 }
 
-.P1{
+.P1 {
+  display: flex;
+  /* align-items: center; */
+  margin-top: 127px;
+  justify-content: center;
+  height: 150vh;
+}
+
+.C {
+  border: 2px solid gray;
+  /* background-color: aqua; */
+  height: 750px;
+  width: 537px;
+}
+
+.C1{
+  width: inherit;
+}
+
+.H1 {
+  width: inherit;
+  margin-top: 57px;
+  display: flex;
+  justify-content: center;
+}
+
+.IC {
+  display: flex;
+  justify-content: center;
+  margin-top: 51px;
+  width: inherit;
+}
+
+.IC1 {
+  height: 51px;
+  width: 156px;
+  background-color: white;
+  border: 1px solid #9d9ca2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.IC2 {
+  height: 51px;
+  width: 156px;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 20px;
+  border: 1px solid #9d9ca2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.C2 {
+  margin-top: 37px;
+  display: flex;
+  justify-content: center;
+  font-size: medium;
+  color: #4a4a4a;
+  width: inherit;
+}
+
+.C3 {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  width :inherit;
+}
+
+.C3 form {
+  display: flex;
+  flex-direction: column;
+  min-width: inherit;
+}
+
+.C3 form input {
+  height: 43px;
+  margin-top: 18px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #cfcfd2;
+  width: inherit;
+}
+.C3 form input ::placeholder {
+  color: #9d9ca2;
+}
+
+.C3 form button {
+  width: inherit;
+  height: 41px;
+  background-color: #26262b;
+  color: white;
+  font-weight: 400;
+  font-size: medium;
+  border-radius: 9px;
+}
+
+.CheckBox {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  width: inherit;
+  flex-direction: row;
+}
+.CheckBox p {
+  margin-left: 5px;
+  margin-top: 15px;
+}
+.CheckBox input {
+  height: 10px;
+  width: 20px;
+}
+
+.C4 {
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  color: #9d9ca2;
+  width: inherit;
+}
+
+@media(max-width:600px){
+  .P {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .P1 {
     display: flex;
     /* align-items: center; */
     margin-top: 127px;
     justify-content: center;
     height: 150vh;
-}
-
-.C{
-   border: 2px solid gray;
-   background-color: aqua;
-     height : 807px;
-     width : 537px
-}
-.H1{
+  }
+  
+  .C {
+    border: 2px solid gray;
+    /* background-color: aqua; */
+    height: 750px;
+    width: 300px;
+  }
+  
+  .C1{
+    width: inherit;
+    font-size: small;
+  }
+  
+  .H1 {
+    width: inherit;
     margin-top: 57px;
     display: flex;
     justify-content: center;
-}
-
-.IC1{
-    height: 51px;
-    width : 156px;
-    background-color: white;
-    border-radius: 10px;
-}
-
-.IC2{
-    height: 51px;
-    width: 156px;
-    background-color: white;
-    border-radius: 10px;
-    margin-left: 20px ;
-}
-.IC{
+  }
+  
+  .IC {
     display: flex;
     justify-content: center;
-    margin-top: 51px;
-}
-.C2{
+    margin-top: 30px;
+    width: inherit;
+  }
+  
+  .IC1 {
+    height: 51px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid #9d9ca2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .IC2 {
+    height: 51px;
+    width: 100px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    border: 1px solid #9d9ca2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .C2 {
     margin-top: 37px;
     display: flex;
     justify-content: center;
     font-size: medium;
     color: #4a4a4a;
-}
-
-.C3{
+    width: inherit;
+  }
+  
+  .C3 {
     margin-top: 25px;
     display: flex;
     justify-content: center;
-}
-
-.C3 form {
+    width :inherit;
+  }
+  
+  .C3 form {
     display: flex;
     flex-direction: column;
-    width: 411px;
-}
-
-.C3 form input{
-    height : 43px;
+    min-width: inherit;
+  }
+  
+  .C3 form input {
+    height: 43px;
     margin-top: 18px;
-    padding: 5px;
+    padding: 1px;
     border-radius: 5px;
     border: 1px solid #cfcfd2;
-    
-}
-.C3 form input ::placeholder{
+    width: inherit;
+    margin: 20px;
+    padding-left:9px ;
+  }
+  .C3 form input ::placeholder {
     color: #9d9ca2;
+  }
+  
+  .C3 form button {
+    width: inherit;
+    height: 41px;
+    background-color: #26262b;
+    color: white;
+    font-weight: 400;
+    font-size: medium;
+    border-radius: 9px;
+    margin: 20px;
+  }
+  
+  .CheckBox {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    width: inherit;
+    flex-direction: row;
+  }
+  .CheckBox p {
+    margin-top: 15px;
+  }
+  .CheckBox input {
+    height: 10px;
+    width: 10px;
+  }
+  
+  .C4 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: #9d9ca2;
+    width: inherit;
+  }
 }

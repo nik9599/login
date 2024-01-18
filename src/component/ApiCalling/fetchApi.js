@@ -13,7 +13,7 @@ export const signUpUser = async (data) => {
       { headers }
     );
 
-    if (resp.status === 200) {
+    if (resp.status === 200||resp.status === 201) {
       return resp.data;
     } else {
       return "Error while making request";
@@ -23,3 +23,11 @@ export const signUpUser = async (data) => {
     return error.message;
   }
 };
+
+
+export const getUserIp = async()=>{
+  const resp =  await axios.get('https://ipapi.co/json')
+  if(resp.status == 200){
+    return resp.data.ip
+  }
+}
