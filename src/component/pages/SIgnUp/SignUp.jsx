@@ -54,7 +54,7 @@ export default function SignUp({ setError }) {
         <div className="C">
           <div className="C1">
             <div className="H1">
-              <h2>Start your Setapp membership</h2>
+              <h2>Start your LAZYFOLKS membership</h2>
             </div>
             <div className="IC">
               <div className="IC1">
